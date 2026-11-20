@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#152d5e"/>
+      <stop offset="100%" stop-color="#091628"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#070f1e"/>
+
+  <!-- Card -->
+  <rect x="40" y="40" width="320" height="320" rx="48" fill="url(#cardGrad)" stroke="#1e4080" stroke-width="2"/>
+  <rect x="40" y="40" width="320" height="160" rx="48" fill="url(#shineGrad)"/>
+
+  <!-- Rivet dots -->
+  <circle cx="72" cy="72" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="328" cy="72" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="72" cy="328" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="328" cy="328" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+
+  <!-- Inner border -->
+  <rect x="52" y="52" width="296" height="296" rx="40" fill="none" stroke="#1a3a7a" stroke-width="1"/>
+
+  <!-- Camera body -->
+  <rect x="90" y="125" width="220" height="168" rx="28" fill="#0a1628" stroke="#1e4a90" stroke-width="2"/>
+  <rect x="100" y="135" width="200" height="148" rx="20" fill="#091220" stroke="#162d5a" stroke-width="1"/>
+
+  <!-- Viewfinder top-left -->
+  <rect x="112" y="148" width="36" height="26" rx="6" fill="#0a1628" stroke="#1e4080" stroke-width="1.5"/>
+  <rect x="116" y="152" width="28" height="18" rx="4" fill="#060d1a" stroke="#162d5a" stroke-width="1"/>
+
+  <!-- Flash top-right -->
+  <circle cx="285" cy="161" r="10" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="285" cy="161" r="5" fill="#162d5a" stroke="#2a5ab0" stroke-width="1"/>
+  <circle cx="283" cy="159" r="2" fill="white" opacity="0.7"/>
+
+  <!-- Lens outer ring -->
+  <circle cx="200" cy="215" r="58" fill="#091220" stroke="#1e4a90" stroke-width="2"/>
+  <!-- Lens ring 2 -->
+  <circle cx="200" cy="215" r="48" fill="#0a1628" stroke="#162d5a" stroke-width="1.5"/>
+  <!-- Lens ring 3 -->
+  <circle cx="200" cy="215" r="36" fill="#070f1e" stroke="#1e4080" stroke-width="1.5"/>
+  <!-- Lens inner -->
+  <circle cx="200" cy="215" r="24" fill="#091220" stroke="#2a5ab0" stroke-width="1"/>
+  <!-- Lens core -->
+  <circle cx="200" cy="215" r="14" fill="#152d5e" stroke="#3a6ab8" stroke-width="1"/>
+  <!-- Lens highlight -->
+  <circle cx="194" cy="209" r="6" fill="white" opacity="0.8"/>
+  <circle cx="192" cy="207" r="3" fill="white" opacity="0.5"/>
+
+  <!-- Brand strip -->
+  <rect x="120" y="100" width="160" height="22" rx="5" fill="#0d1f3c" stroke="#1e4a90" stroke-width="1.2"/>
+  <text x="200" y="115" text-anchor="middle" font-family="'Arial Black', Arial" font-size="10" font-weight="900" fill="white" opacity="0.9" letter-spacing="2">INSTAGRAM</text>
+
+  <!-- Bottom star row -->
+  <text x="170" y="300" font-family="Arial" font-size="12" fill="#1e4080">★</text>
+  <text x="193" y="300" font-family="Arial" font-size="12" fill="#2a5ab0">★</text>
+  <text x="216" y="300" font-family="Arial" font-size="12" fill="#1e4080">★</text>
+
+  <!-- Bottom label -->
+  <text x="200" y="348" text-anchor="middle" font-family="'Arial Black', Arial" font-size="13" font-weight="900" fill="#3a6ab8" letter-spacing="4">PHOTO</text>
+</svg>
