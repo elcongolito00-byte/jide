@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#152d5e"/>
+      <stop offset="100%" stop-color="#091628"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="diskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2248"/>
+      <stop offset="100%" stop-color="#091220"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#070f1e"/>
+
+  <!-- Card -->
+  <rect x="40" y="40" width="320" height="320" rx="48" fill="url(#cardGrad)" stroke="#1e4080" stroke-width="2"/>
+  <rect x="40" y="40" width="320" height="160" rx="48" fill="url(#shineGrad)"/>
+
+  <!-- Rivet dots -->
+  <circle cx="72" cy="72" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="328" cy="72" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="72" cy="328" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+  <circle cx="328" cy="328" r="6" fill="#0a1628" stroke="#1e4a90" stroke-width="1.5"/>
+
+  <!-- Inner border -->
+  <rect x="52" y="52" width="296" height="296" rx="40" fill="none" stroke="#1a3a7a" stroke-width="1"/>
+
+  <!-- Main circle - like a vinyl record -->
+  <circle cx="200" cy="210" r="100" fill="url(#diskGrad)" stroke="#1e4a90" stroke-width="2.5"/>
+  <!-- Record rings -->
+  <circle cx="200" cy="210" r="95" fill="none" stroke="#162d5a" stroke-width="0.8"/>
+  <circle cx="200" cy="210" r="82" fill="none" stroke="#162d5a" stroke-width="0.8"/>
+  <circle cx="200" cy="210" r="68" fill="none" stroke="#1a3560" stroke-width="0.8"/>
+  <!-- Inner label circle -->
+  <circle cx="200" cy="210" r="42" fill="#0d1f3c" stroke="#1e4a90" stroke-width="1.5"/>
+  <!-- Center hole -->
+  <circle cx="200" cy="210" r="8" fill="#070f1e" stroke="#162d5a" stroke-width="1"/>
+
+  <!-- Spotify signal arcs on the label -->
+  <path d="M168 196 Q200 183 232 196" fill="none" stroke="white" stroke-width="6.5" stroke-linecap="round" opacity="0.95"/>
+  <path d="M175 212 Q200 201 225 212" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M181 228 Q200 219 219 228" fill="none" stroke="white" stroke-width="5.5" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Brand strip -->
+  <rect x="118" y="100" width="164" height="22" rx="5" fill="#0d1f3c" stroke="#1e4a90" stroke-width="1.2"/>
+  <text x="200" y="115" text-anchor="middle" font-family="'Arial Black', Arial" font-size="10" font-weight="900" fill="white" opacity="0.9" letter-spacing="3">SPOTIFY</text>
+
+  <!-- Bottom label -->
+  <text x="200" y="348" text-anchor="middle" font-family="'Arial Black', Arial" font-size="13" font-weight="900" fill="#3a6ab8" letter-spacing="4">MUSIC</text>
+</svg>
